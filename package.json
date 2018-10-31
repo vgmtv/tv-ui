@@ -1,0 +1,51 @@
+{
+  "name": "@a7/vui",
+  "version": "1.0.0",
+  "description": "Common UI",
+  "main": "index.js",
+  "repository": "git@github.com:team-a7/vui.git",
+  "author": "nampdn <nampdn@protonmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  },
+  "scripts": {
+    "styleguide": "styleguidist server",
+    "start": "run-s styleguide",
+    "test": "CI=true react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "clean": "rimraf lib build",
+    "build:react": "NODE_ENV=production babel src --out-dir lib --copy-files",
+    "build:styleguide": "styleguidist build",
+    "build:all": "run-p build:react build:styleguide",
+    "build": "run-s clean build:all",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "@a7/cuoi": "^1.1.1",
+    "@a7/icons": "^1.0.1",
+    "@a7/vgm-constant": "^1.0.2",
+    "react": "16.4",
+    "react-dom": "16.4",
+    "react-primitives": "^0.6.1",
+    "react-spring": "^6.1.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@semantic-release/changelog": "^3.0.1",
+    "@semantic-release/git": "^7.0.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.4.2",
+    "jest": "^23.6.0",
+    "npm-run-all": "^4.1.3",
+    "react-scripts": "1.1.4",
+    "react-styleguidist": "7.1.0",
+    "rimraf": "^2.6.2",
+    "semantic-release": "^15.10.6"
+  }
+}
