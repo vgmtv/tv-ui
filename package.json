@@ -10,6 +10,9 @@
     "registry": "https://registry.npmjs.org/",
     "tag": "latest"
   },
+  "files": [
+    "lib/"
+  ],
   "scripts": {
     "styleguide": "styleguidist server",
     "start": "run-s styleguide",
