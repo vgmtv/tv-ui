@@ -2,51 +2,6 @@
 # yarn lockfile v1
 
 
-"@a7/cuoi@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@a7/cuoi/-/cuoi-1.1.1.tgz#44053a80d8890f9990404fc606cb447b9d4d5804"
-  integrity sha512-vP4lAMvTJl1mwXpdqFXZSd3WJTnz4lpF4SwpJPmDikNIEn42V3Izm91qkX56UetzAPCZRPg5musscOV3L3HwhA==
-  dependencies:
-    "@a7/icons" "^1.0.0"
-    "@a7/rsvg" "^1.0.0"
-    "@a7/vgm-constant" "^1.0.2"
-    react "~16.6.0"
-    react-dom "~16.6.0"
-    react-primitives "^0.6.1"
-    react-spring "^6.1.5"
-
-"@a7/icons@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@a7/icons/-/icons-1.0.0.tgz#8dc5b5d99d9e6ee289aacdc7841d2e149d3695cc"
-  integrity sha512-KMKcwKA+saorE/TXpUC+++latZIRBBL0yThw2vxQ1fqvBVVWav95Cow/pmaWSlqSPMxJO7vFcZxZ2kgylLySZA==
-  dependencies:
-    "@a7/rsvg" "^1.0.0"
-    react "^16.6.0"
-    react-dom "^16.6.0"
-    react-primitives "^0.6.1"
-    react-spring "^6.1.5"
-
-"@a7/icons@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@a7/icons/-/icons-1.0.1.tgz#2c1e9a215b365c12d965eb650895076b4f6615de"
-  integrity sha512-5trVocri4sYG7ccN+c1S3aMbfFzYm45fZUTY5LUf+oEAaUlYprAFl+fygNxImm9+yUQLjr463ruyGfxSgoNE3A==
-  dependencies:
-    "@a7/rsvg" "^1.0.0"
-    react "16.4"
-    react-dom "16.4"
-    react-primitives "^0.6.1"
-    react-spring "^6.1.5"
-
-"@a7/rsvg@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@a7/rsvg/-/rsvg-1.0.0.tgz#36bb0f85648180a04a615c5eee6aa21766e109ea"
-  integrity sha512-tdUlWpkk9DcRFzbSRUdEtxomAjtVf23QiiKc6rCG7WFbufzvdpTcmm0+YZXJP9ypk7Au/UuJIVX6qioD39hqUA==
-
-"@a7/vgm-constant@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@a7/vgm-constant/-/vgm-constant-1.0.2.tgz#eeaef5eef3afffb63ad77816107833c837aa9a9d"
-  integrity sha512-VfkKPuyXg/kpXs9jYzFJRhrEfdEOtHnH8oIZTF27QIZ0r6UvwUMEDEXbC/hXT2tsIp5vdZNf2asf88utM3G06g==
-
 "@babel/cli@^7.0.0":
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.1.2.tgz#fc2853ae96824b3779ca85de4fd025ce3cf62a5e"
@@ -9614,16 +9569,6 @@ react-dom@16.4:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-dom@^16.6.0, react-dom@~16.6.0:
-  version "16.6.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.6.0.tgz#6375b8391e019a632a89a0988bce85f0cc87a92f"
-  integrity sha512-Stm2D9dXEUUAQdvpvhvFj/DEXwC2PAL/RwEMhoN4dvvD2ikTlJegEXf97xryg88VIAU22ZAP7n842l+9BTz6+w==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
-    scheduler "^0.10.0"
-
 react-error-overlay@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-4.0.1.tgz#417addb0814a90f3a7082eacba7cee588d00da89"
@@ -9818,16 +9763,6 @@ react@16.4:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.0"
-
-react@^16.6.0, react@~16.6.0:
-  version "16.6.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.6.0.tgz#b34761cfaf3e30f5508bc732fb4736730b7da246"
-  integrity sha512-zJPnx/jKtuOEXCbQ9BKaxDMxR0001/hzxXwYxG8septeyYGfsgAei6NgfbVgOhbY1WOP2o3VPs/E9HaN+9hV3Q==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
-    scheduler "^0.10.0"
 
 read-cmd-shim@^1.0.1, read-cmd-shim@~1.0.1:
   version "1.0.1"

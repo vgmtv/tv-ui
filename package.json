@@ -26,9 +26,6 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "@a7/cuoi": "^1.1.1",
-    "@a7/icons": "^1.0.1",
-    "@a7/vgm-constant": "^1.0.2",
     "react": "16.4",
     "react-dom": "16.4",
     "react-primitives": "^0.6.1",
