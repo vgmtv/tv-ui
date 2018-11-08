@@ -1,9 +1,9 @@
 {
-  "name": "@a7/vui",
+  "name": "@vgm/tv-ui",
   "version": "1.0.0",
-  "description": "Common UI",
+  "description": "VGM UI Components",
   "main": "index.js",
-  "repository": "git@github.com:team-a7/vui.git",
+  "repository": "git@github.com:vgmtv/vgm-ui.git",
   "author": "nampdn <nampdn@protonmail.com>",
   "license": "MIT",
   "publishConfig": {
