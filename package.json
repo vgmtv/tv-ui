@@ -27,8 +27,8 @@
   },
   "dependencies": {
     "@vgm/icons": "^1.0.2",
-    "react": "16.4",
-    "react-dom": "16.4",
+    "react": "16.6",
+    "react-dom": "16.6",
     "react-primitives": "^0.6.1",
     "react-spring": "^6.1.5"
   },
