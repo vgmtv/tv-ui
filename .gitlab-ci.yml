@@ -1,4 +1,4 @@
-image: node:slim
+image: tarampampam/node:alpine
 
 cache:
   paths:
