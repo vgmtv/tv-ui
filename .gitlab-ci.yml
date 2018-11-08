@@ -1,0 +1,40 @@
+image: node:alpine
+
+cache:
+  paths:
+    - node_modules/
+
+before_script:
+  - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
+  - yarn install
+
+build:
+  stage: build
+  tags:
+    - docker
+    - vgm
+    - library
+  script:
+    - yarn build
+
+test:
+  stage: test
+  tags:
+    - docker
+    - vgm
+    - library
+  script:
+    - yarn test
+
+deploy:
+  stage: deploy
+  tags:
+    - docker
+    - vgm
+    - library
+  script:
+    - yarn build
+    - yarn semantic-release
+  only:
+    - master
+
