@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {View, StyleSheet, Text} from 'react-primitives'
-import {ShuffleIcon, RepeatIcon, MoreIcon} from '@a7/icons'
+import {ShuffleIcon, RepeatIcon, MoreIcon} from '@vgm/icons'
 import {design} from '@vgm/constant'
 import SeekBar from '../SeekBar'
 import PlayControls from '../PlayControls'

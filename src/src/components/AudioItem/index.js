@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {View, StyleSheet, Text} from 'react-primitives'
 import {design} from '@vgm/constant'
-import {MoreIcon} from '@a7/icons'
+import {MoreIcon} from '@vgm/icons'
 
 const {
   size: {unit, icon},

@@ -7,7 +7,7 @@ import {
   ForwardIcon,
   NextIcon,
   PreviousIcon,
-} from '@a7/icons'
+} from '@vgm/icons'
 import {IconButton} from '@a7/cuoi'
 
 const {

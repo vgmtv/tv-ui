@@ -393,6 +393,22 @@
     into-stream "^4.0.0"
     lodash "^4.17.4"
 
+"@vgm/icons@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@vgm/icons/-/icons-1.0.2.tgz#549ad5b64348bfca39fcdd3817d73a14254caeef"
+  integrity sha512-2ZFq/VzYSKm978flKk60LIzOkYa7l7j1lw/r9IhbRCAvLfIk8nrBz2Fde/snCI31N4NvWOjP0FL7iJWf9o/7bQ==
+  dependencies:
+    "@vgm/rsvg" "^1.0.0"
+    react "16.4"
+    react-dom "16.4"
+    react-primitives "^0.6.1"
+    react-spring "^6.1.5"
+
+"@vgm/rsvg@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@vgm/rsvg/-/rsvg-1.0.0.tgz#83ceb55b96ae97b84e151d013cc36a5d4d24ec0d"
+  integrity sha512-dhjqlo5IszIjzaguXgaEpXa9Acr/uUuq0NwgmnJjFcglZVM76KonR2SkiTIE10GtS66xLORh8sMEUJDSDCxJ0Q==
+
 "@vxna/mini-html-webpack-template@^0.1.7":
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/@vxna/mini-html-webpack-template/-/mini-html-webpack-template-0.1.7.tgz#2a8270e513ee14f395cc17c2ce22ced383c45d22"
