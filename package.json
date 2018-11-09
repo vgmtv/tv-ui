@@ -2,7 +2,7 @@
   "name": "@vgm/tv-ui",
   "version": "1.0.0",
   "description": "VGM UI Components",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "git@github.com:vgmtv/tv-ui.git",
   "author": "nampdn <nampdn@protonmail.com>",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "tag": "latest"
   },
   "files": [
-    "lib/"
+    "lib/*"
   ],
   "scripts": {
     "styleguide": "styleguidist server",
