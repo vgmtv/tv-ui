@@ -14,6 +14,7 @@ build:
     - docker
     - vgm
     - library
+    - yarn
   script:
     - yarn build
 
@@ -23,6 +24,7 @@ test:
     - docker
     - vgm
     - library
+    - yarn
   script:
     - yarn test
 
@@ -32,6 +34,7 @@ deploy:
     - docker
     - vgm
     - library
+    - yarn
   script:
     - yarn build
     - yarn semantic-release
