@@ -31,7 +31,7 @@
     "@vgm/primitives-ui": "^1.0.3",
     "react": "16.6",
     "react-dom": "16.6",
-    "react-primitives": "^0.6.1",
+    "react-primitives": "^0.7.0",
     "react-spring": "^6.1.5"
   },
   "devDependencies": {
