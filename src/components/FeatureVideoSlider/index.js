@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {StyleSheet, Platform} from 'react-primitives'
-import {HorizontalSlider} from '@a7/cuoi'
+import {HorizontalSlider} from '@vgm/primitives-ui'
 import {design} from '@vgm/design-specs'
 import VideoItem from '../VideoItem'
 

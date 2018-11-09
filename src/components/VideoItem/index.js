@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {View, Image, StyleSheet, Text, Touchable} from 'react-primitives'
-import {GradientBox} from '@a7/cuoi'
+import {GradientBox} from '@vgm/primitives-ui'
 import {design} from '@vgm/design-specs'
 
 const {

@@ -433,6 +433,11 @@
     into-stream "^4.0.0"
     lodash "^4.17.4"
 
+"@vgm/design-specs@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@vgm/design-specs/-/design-specs-1.0.1.tgz#599d0a8d0b1cd09350af9db6d27aa61b9277a4d2"
+  integrity sha512-xRAj81Mt4RIwaw5Gs1lKI5sN3FsvaiiF/B/B8F4PuAHqFEXjcy2IoRlhFXoZOe0+/SjjLoOGhNolNEyQ9Sns9Q==
+
 "@vgm/icons@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@vgm/icons/-/icons-1.0.2.tgz#549ad5b64348bfca39fcdd3817d73a14254caeef"
@@ -441,6 +446,19 @@
     "@vgm/rsvg" "^1.0.0"
     react "16.4"
     react-dom "16.4"
+    react-primitives "^0.6.1"
+    react-spring "^6.1.5"
+
+"@vgm/primitives-ui@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@vgm/primitives-ui/-/primitives-ui-1.0.3.tgz#2c5ec7cca779a54787a18580c0031a684fcd3d2a"
+  integrity sha512-ExojLoax5Nc/QeIFRKyvOf3DhMV6u9p42PCFQX8oi46rsnuhTXEYj54STmDCNmSQZxOHSjGwcwpQ6/EVj/cCig==
+  dependencies:
+    "@vgm/design-specs" "^1.0.1"
+    "@vgm/icons" "^1.0.2"
+    "@vgm/rsvg" "^1.0.0"
+    react "~16.6.0"
+    react-dom "~16.6.0"
     react-primitives "^0.6.1"
     react-spring "^6.1.5"
 
@@ -9152,7 +9170,7 @@ react-dom@16.4:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-dom@16.6:
+react-dom@16.6, react-dom@~16.6.0:
   version "16.6.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.6.1.tgz#5476e08694ae504ae385a28b62ecc4fe3a29add9"
   integrity sha512-zm+wBuEMGm009Wt1uE4Zw5KcXOW7qC4E/xW/fpJsCsbOco4U/R84u+DzzO/S4SYSdNBcqcaulcp4w3FXl8pImw==
@@ -9358,7 +9376,7 @@ react@16.4:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react@16.6:
+react@16.6, react@~16.6.0:
   version "16.6.1"
   resolved "https://registry.yarnpkg.com/react/-/react-16.6.1.tgz#ee2aef4f0a09e494594882029821049772f915fe"
   integrity sha512-OtawJThYlvRgm9BXK+xTL7BIlDx8vv21j+fbQDjRRUyok6y7NyjlweGorielTahLZHYIdKUoK2Dp9ByVWuMqxw==

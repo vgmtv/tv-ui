@@ -8,7 +8,7 @@ import {
   NextIcon,
   PreviousIcon,
 } from '@vgm/icons'
-import {IconButton} from '@a7/cuoi'
+import {IconButton} from '@vgm/primitives-ui'
 
 const {
   size: {unit, icon},
