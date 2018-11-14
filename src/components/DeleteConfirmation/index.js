@@ -14,11 +14,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "column",
     justifyContent: "space-between",
-    backgroundColor: "rgba(200,200,200,0.8)",
-    borderTopLeftRadius: 16,
-    borderTopRightRadius: 16,
-    width: 360,
-    height: 120
+    backgroundColor: "rgba(200,200,200,0.6)",
+    borderTopLeftRadius: 8,
+    borderTopRightRadius: 8,
+    width: unit * 45,
+    height: unit * 20
   },
   titleContainer: {
     flex: 1,
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     fontSize: unit * 2.5,
     letterSpacing: 0.5,
-    color: colors.white.alt,
+    color: colors.white.base,
     textAlign: "center"
   },
   buttonContainer: {
@@ -37,24 +37,24 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
     justifyContent: "space-around",
-    width: 360,
-    height: 48
+    width: unit * 45,
+    height: unit * 6
   },
   leftButton: {
     borderRightWidth: 1,
-    borderColor: "gray",
-    height: 48,
-    width: 180,
+    borderColor: "rgba(160,160,160,1)",
+    height: unit * 6,
+    width: unit * 22.5,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "rgba(200,200,200,0.8)"
+    backgroundColor: "rgba(200,200,200,0.6)"
   },
   rightButton: {
-    height: 48,
-    width: 180,
+    height: unit * 6,
+    width: unit * 22.5,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "rgba(200,200,200,0.8)"
+    backgroundColor: "rgba(200,200,200,0.6)"
   },
   buttonTextLeft: {
     fontFamily: "SF Pro Display",
