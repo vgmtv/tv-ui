@@ -2,5 +2,8 @@
   "extends": [
     "config:base"
   ],
-  "npmToken": "RpBamFRpytQimAr8hKjbdz1vwS4QDQjduc3PEbjDSKg+ooMwa+QFBL2E28xz4MZIWiaIb09nhZeBh4oyrMyflNzRKeGNvXyzU8OJt1FBbot8JpVmo7qZw29aHSxC9QFfkZQpIy7FiKhzhHlCndiJrjftEGByAggqd0DBfHW+frR2ADQc/iYtIUmOkLSxeo4nS1OVSDHNPSTuXWkyL+hXQxDQ5ZjoLxU4YzZe/PkKy0Pzk/jUSL7RfN635dEvKBgtjmw1sQjE+5Owq/pXc/ZPoTHLsc1BTb/PI1tqOy/OF3dPYLG+VJkyhzCXrBKnzckNM40FNosVhnegMzuqwUN9yw=="
+  "npmToken": "158b2de8-32c6-4884-8925-7f34a7b1325c",
+  "devDependencies": {
+    "automerge": true
+  }
 }
