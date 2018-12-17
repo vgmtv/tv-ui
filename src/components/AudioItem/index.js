@@ -69,8 +69,8 @@ const styles = StyleSheet.create({
 
 export class AudioItem extends Component {
   static defaultProps = {
-    title: "Default Audio Item Title",
-    subTitle: "This is where subtitle go!",
+    title: "Title",
+    subTitle: "Subtitle",
     active: false,
     bg: "blank",
     subIsOn: true
