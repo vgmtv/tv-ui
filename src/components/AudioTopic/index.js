@@ -50,7 +50,7 @@ export class AudioTopic extends Component {
     return (
         <View style={[styles.container, style]}>
           <View style={styles.titleHolder}>
-            <Text style={styles.titleMain}>{mainTitle}</Text>
+            <Text style={styles.titleMain} numberOfLines={1}>{mainTitle}</Text>
             <Text style={styles.titleSub}>{subTitle}</Text>
           </View>
         </View>
