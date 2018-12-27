@@ -10805,6 +10805,22 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
+react-native-web@0.9.10:
+  version "0.9.10"
+  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.9.10.tgz#016dc10587a7eb9516e3ffe2ad80dee2a8af7981"
+  integrity sha512-JLnvtEvjHJ3ENOSZcLm6oAAUyH3rmMPzmqNFxl7pXDzJ1ALSrrdQcKKAleeSYG/rsFKp2u03lf/7YYb5tg5SXA==
+  dependencies:
+    array-find-index "^1.0.2"
+    create-react-class "^15.6.2"
+    debounce "^1.1.0"
+    deep-assign "^2.0.0"
+    fbjs "^0.8.16"
+    hyphenate-style-name "^1.0.2"
+    inline-style-prefixer "^4.0.2"
+    normalize-css-color "^1.0.2"
+    prop-types "^15.6.0"
+    react-timer-mixin "^0.13.3"
+
 react-native-web@^0.8.3:
   version "0.8.11"
   resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.8.11.tgz#e569af7076527af40ae7b4e6ce81e0544913a7c7"

@@ -31,6 +31,7 @@
     "@vgm/primitives-ui": "^1.0.3",
     "react": "15.6.1",
     "react-dom": "15.6.1",
+    "react-native-web": "0.9.10",
     "react-primitives": "^0.7.0"
   },
   "devDependencies": {
