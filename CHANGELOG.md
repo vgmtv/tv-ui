@@ -1,3 +1,19 @@
+# [1.1.0](https://github.com/vgmtv/tv-ui.git/compare/v1.0.3...v1.1.0) (2018-12-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-primitives to ^0.7.0 ([7f68944](https://github.com/vgmtv/tv-ui.git/commit/7f68944))
+* **tv-ui:** add numberoflines to AudioTopic title ([65ce18d](https://github.com/vgmtv/tv-ui.git/commit/65ce18d))
+* **tv-ui:** remove unused MoreIcon ([548912d](https://github.com/vgmtv/tv-ui.git/commit/548912d))
+
+
+### Features
+
+* **tv-ui:** downgrade react to version 15.6.1 ([31ff653](https://github.com/vgmtv/tv-ui.git/commit/31ff653))
+* **tv-ui:** downgrade styleguidist to version 7 ([a352fde](https://github.com/vgmtv/tv-ui.git/commit/a352fde))
+* **tv-ui:** just to make it build - no important changes ([e1aa2f6](https://github.com/vgmtv/tv-ui.git/commit/e1aa2f6))
+
 ## [1.0.3](https://github.com/vgmtv/tv-ui.git/compare/v1.0.2...v1.0.3) (2018-11-09)
 
 
