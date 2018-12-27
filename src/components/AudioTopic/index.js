@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {View, StyleSheet, Text, Touchable} from 'react-primitives'
+import {View, StyleSheet, Text } from 'react-primitives'
 import {design} from '@vgm/design-specs'
 
 const {
