@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/vgmtv/tv-ui.git/compare/v1.2.1...v1.2.2) (2018-12-31)
+
+
+### Bug Fixes
+
+* **deps:** upgrade and pin dependencies ([afb434e](https://github.com/vgmtv/tv-ui.git/commit/afb434e))
+
 ## [1.2.1](https://github.com/vgmtv/tv-ui.git/compare/v1.2.0...v1.2.1) (2018-12-31)
 
 
