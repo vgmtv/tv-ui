@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/vgmtv/tv-ui.git/compare/v1.2.0...v1.2.1) (2018-12-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-native-web to v0.9.12 ([22769a4](https://github.com/vgmtv/tv-ui.git/commit/22769a4))
+
 # [1.2.0](https://github.com/vgmtv/tv-ui.git/compare/v1.1.0...v1.2.0) (2018-12-31)
 
 
