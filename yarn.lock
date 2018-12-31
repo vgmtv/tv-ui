@@ -1152,10 +1152,21 @@
   resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.2.tgz#e13182e1b69871a422d7863e11a4a6f5b814a4bd"
   integrity sha512-42zEJkBpNfMEAvWR5WlwtTH22oDzcMjFsL9gDGExwF8X8WvAiw7Vwop7hPw03QT8TKfec83LwbHj6SvpqM4ELQ==
 
-"@vgm/design-specs@^1.0.1":
+"@vgm/design-specs@1.0.1", "@vgm/design-specs@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@vgm/design-specs/-/design-specs-1.0.1.tgz#599d0a8d0b1cd09350af9db6d27aa61b9277a4d2"
   integrity sha512-xRAj81Mt4RIwaw5Gs1lKI5sN3FsvaiiF/B/B8F4PuAHqFEXjcy2IoRlhFXoZOe0+/SjjLoOGhNolNEyQ9Sns9Q==
+
+"@vgm/icons@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@vgm/icons/-/icons-1.0.3.tgz#ebf283858de55a84daa682a66bd9d4f45d020350"
+  integrity sha512-5PyTEpvwjkznvPDMuS7YREe5wnkXuqhN012NqDsUPGQcvACM8bEA8mV3eXfNg7B5dlsVg1drr2ES8T2Sx/WpUQ==
+  dependencies:
+    "@vgm/rsvg" "^1.0.0"
+    react "16.6"
+    react-dom "16.6"
+    react-primitives "^0.6.1"
+    react-spring "^6.1.5"
 
 "@vgm/icons@^1.0.2":
   version "1.0.2"
@@ -1168,10 +1179,10 @@
     react-primitives "^0.6.1"
     react-spring "^6.1.5"
 
-"@vgm/primitives-ui@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@vgm/primitives-ui/-/primitives-ui-1.0.3.tgz#2c5ec7cca779a54787a18580c0031a684fcd3d2a"
-  integrity sha512-ExojLoax5Nc/QeIFRKyvOf3DhMV6u9p42PCFQX8oi46rsnuhTXEYj54STmDCNmSQZxOHSjGwcwpQ6/EVj/cCig==
+"@vgm/primitives-ui@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@vgm/primitives-ui/-/primitives-ui-1.1.0.tgz#a244385d037e2de5a8ecc3681f468cc41fdda83f"
+  integrity sha512-lDUkHYy4YIS4N4l06gf9jjZbkxV/jnHXPwf5Qs36yeBKgbSiZMKmn0ND7kEy8Tkn275WfIxZerovdfpUL8RWoA==
   dependencies:
     "@vgm/design-specs" "^1.0.1"
     "@vgm/icons" "^1.0.2"
@@ -10945,6 +10956,16 @@ react-dom@16.4:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
+react-dom@16.6:
+  version "16.6.3"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.6.3.tgz#8fa7ba6883c85211b8da2d0efeffc9d3825cccc0"
+  integrity sha512-8ugJWRCWLGXy+7PmNh8WJz3g1TaTUt1XyoIcFN+x0Zbkoz+KKdUyx1AQLYJdbFXjuF41Nmjn5+j//rxvhFjgSQ==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.11.2"
+
 react-dom@16.7.0:
   version "16.7.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.7.0.tgz#a17b2a7ca89ee7390bc1ed5eb81783c7461748b8"
@@ -11031,6 +11052,22 @@ react-native-web@^0.8.3:
     prop-types "^15.6.0"
     react-timer-mixin "^0.13.3"
 
+react-primitives@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/react-primitives/-/react-primitives-0.7.0.tgz#ccd83c7aa374c66bb1dc4982b423403c59a33805"
+  integrity sha512-9JwzJExMVFIR1H+e+4fF8cTeS1Fj+W5+oL5vHawar36vwsJB5CLvdP3DY2DlYVH+pOZoCCQpBgeOjD2d7e6GKg==
+  dependencies:
+    animated "^0.2.2"
+    asap "^2.0.5"
+    create-react-class "^15.6.2"
+    flexibility "^2.0.1"
+    inline-style-prefixer "^4.0.2"
+    invariant "^2.2.1"
+    normalize-css-color "^1.0.1"
+    prop-types "^15.5.10"
+    react-timer-mixin "^0.13.3"
+    string-hash "^1.1.3"
+
 react-primitives@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/react-primitives/-/react-primitives-0.6.1.tgz#7ea4082a7831cbaf928a12058f7950d228dbcdec"
@@ -11046,22 +11083,6 @@ react-primitives@^0.6.1:
     prop-types "^15.5.10"
     react-art "^16.4.0"
     react-native-web "^0.8.3"
-    react-timer-mixin "^0.13.3"
-    string-hash "^1.1.3"
-
-react-primitives@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/react-primitives/-/react-primitives-0.7.0.tgz#ccd83c7aa374c66bb1dc4982b423403c59a33805"
-  integrity sha512-9JwzJExMVFIR1H+e+4fF8cTeS1Fj+W5+oL5vHawar36vwsJB5CLvdP3DY2DlYVH+pOZoCCQpBgeOjD2d7e6GKg==
-  dependencies:
-    animated "^0.2.2"
-    asap "^2.0.5"
-    create-react-class "^15.6.2"
-    flexibility "^2.0.1"
-    inline-style-prefixer "^4.0.2"
-    invariant "^2.2.1"
-    normalize-css-color "^1.0.1"
-    prop-types "^15.5.10"
     react-timer-mixin "^0.13.3"
     string-hash "^1.1.3"
 
@@ -11206,6 +11227,16 @@ react@16.4:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.0"
+
+react@16.6:
+  version "16.6.3"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.6.3.tgz#25d77c91911d6bbdd23db41e70fb094cc1e0871c"
+  integrity sha512-zCvmH2vbEolgKxtqXL2wmGCUxUyNheYn/C+PD1YAjfxHC54+MhdruyhO7QieQrYsYeTxrn93PM2y0jRH1zEExw==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.11.2"
 
 react@16.7.0:
   version "16.7.0"
@@ -11975,6 +12006,14 @@ scheduler@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.11.0.tgz#def1f1bfa6550cc57981a87106e65e8aea41a6b5"
   integrity sha512-MAYbBfmiEHxF0W+c4CxMpEqMYK+rYF584VP/qMKSiHM6lTkBKKYOJaDiSILpJHla6hBOsVd6GucPL46o2Uq3sg==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
+scheduler@^0.11.2:
+  version "0.11.3"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.11.3.tgz#b5769b90cf8b1464f3f3cfcafe8e3cd7555a2d6b"
+  integrity sha512-i9X9VRRVZDd3xZw10NY5Z2cVMbdYg6gqFecfj79USv1CFN+YrJ3gIPRKf1qlY+Sxly4djoKdfx1T+m9dnRB8kQ==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
