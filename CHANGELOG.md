@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/vgmtv/tv-ui.git/compare/v1.1.0...v1.2.0) (2018-12-31)
+
+
+### Features
+
+* **package:** open source the module ([e7a885e](https://github.com/vgmtv/tv-ui.git/commit/e7a885e))
+
 # [1.1.0](https://github.com/vgmtv/tv-ui.git/compare/v1.0.3...v1.1.0) (2018-12-27)
 
 
