@@ -11630,10 +11630,10 @@ react-spring@^6.1.5:
   dependencies:
     "@babel/runtime" "^7.1.2"
 
-react-styleguidist@9.1.6:
-  version "9.1.6"
-  resolved "https://registry.yarnpkg.com/react-styleguidist/-/react-styleguidist-9.1.6.tgz#bf6f4d1183aab59e0f13e8d7113632549769b8de"
-  integrity sha512-ALfa/8C/VgsTKMWqmB0qtpQ9taiyQeFrwkADzR12RsFrSCsboUFaOgioHO72Du32BzwzWNx/5gGsR7jbt432hg==
+react-styleguidist@9.1.7:
+  version "9.1.7"
+  resolved "https://registry.yarnpkg.com/react-styleguidist/-/react-styleguidist-9.1.7.tgz#48c45691b4b6a4340aee29e3061a57bfaf22be80"
+  integrity sha512-M1tAg20G1C2M1Vzm9gcJBcaTao7iQgdRE4ihMrnCRrJZJOioUejp6fALqIt+GTbLNDC7ds6UZb0ZJhf9dXyQWw==
   dependencies:
     "@vxna/mini-html-webpack-template" "^0.1.7"
     acorn "^6.1.1"
