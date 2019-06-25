@@ -50,6 +50,6 @@
     "react-scripts": "3.0.1",
     "react-styleguidist": "9.1.11",
     "rimraf": "2.6.3",
-    "semantic-release": "15.13.16"
+    "semantic-release": "15.13.17"
   }
 }
