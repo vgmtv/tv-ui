@@ -30,9 +30,9 @@
     "@vgm/design-specs": "1.0.1",
     "@vgm/icons": "1.0.3",
     "@vgm/primitives-ui": "1.1.0",
-    "react": "16.7.0",
-    "react-art": "16.7.0",
-    "react-dom": "16.7.0",
+    "react": "18.3.1",
+    "react-art": "18.3.1",
+    "react-dom": "18.3.1",
     "react-native-web": "0.9.12",
     "react-primitives": "0.7.0"
   },
